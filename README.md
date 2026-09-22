@@ -22,6 +22,12 @@ Branch: `N152_MAD_E2_ASSIGNMENT1`
 | Mascot | Animated assistant character driven by app state (see [Mascot](#mascot)) |
 | Tests | 11 `ChatViewModel` unit tests + 7 Compose UI tests |
 
+## Screenshots
+
+| Multi-turn reply with markdown | Landscape / responsive | Keyboard open, header collapsed |
+| --- | --- | --- |
+| ![](docs/screenshots/01-response-markdown.jpg) | ![](docs/screenshots/02-landscape-responsive.jpg) | ![](docs/screenshots/03-keyboard-mascot-collapsed.jpg) |
+
 ---
 
 ## Running it
