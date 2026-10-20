@@ -1,0 +1,23 @@
+{
+  "rules": {
+    "tasks": {
+      ".read": true,
+      ".write": true,
+      "$taskId": {
+        ".validate": "newData.hasChildren(['description', 'priority'])",
+        "description": {
+          ".validate": "newData.isString() && newData.val().length > 0 && newData.val().length <= 200"
+        },
+        "priority": {
+          ".validate": "newData.isString() && newData.val().matches(/^(HIGH|MEDIUM|LOW)$/)"
+        },
+        "createdAt": {
+          ".validate": "newData.isNumber()"
+        },
+        "$other": {
+          ".validate": false
+        }
+      }
+    }
+  }
+}

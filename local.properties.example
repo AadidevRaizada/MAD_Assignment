@@ -1,0 +1,5 @@
+# Copy to local.properties and point sdk.dir at your Android SDK.
+# macOS (Android Studio default): /Users/<you>/Library/Android/sdk
+# macOS (Homebrew cmdline-tools): /opt/homebrew/share/android-commandlinetools
+# Windows:                        C:/Users/<you>/AppData/Local/Android/Sdk
+sdk.dir=/Users/<you>/Library/Android/sdk

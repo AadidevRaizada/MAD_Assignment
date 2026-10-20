@@ -1,0 +1,22 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+.env.local
+
+# Firebase config: identifies the project and, with open database rules, would let anyone
+# read/write it from a public repo. Download it fresh from the console instead.
+app/google-services.json
+firebase-debug.log
+.firebase/
